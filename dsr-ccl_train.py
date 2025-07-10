@@ -57,7 +57,6 @@ def getHR(pred, grd, is_hit,topk):
 def getH(pred, grd, is_hit,topk):
     values, col_indice = torch.topk(pred, topk)
     hit_api = col_indice.cpu().detach().numpy()
-    # 用户太多了 取前10个
     hit_api = hit_api[0:10]
     same = 0
     count = 0
