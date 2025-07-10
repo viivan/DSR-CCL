@@ -1,0 +1,26 @@
+serviceData:
+  data_path: './datasets'
+  batch_size_train: 256
+  batch_size_test: 256
+  laplace: 1e-8
+  topk: [10, 20]
+  neg_num: 1
+  aug_type: "ED"
+  ed_interval: 1
+  embedding_size: 64
+  num_layers: 1
+  lrs: 1.0e-3
+  service_level_ratio: 0.1
+  bundle_level_ratio: 0.3
+  bundle_agg_ratio: 0.1
+  l2_reg: 1.0e-4
+#
+  c_1 : 1.05
+  c_2 : 1.925
+  c_3 : 1.315
+  c_lambda: 0.1
+  c_temp: 0.25
+
+  epochs: 201
+  test_interval: 1
+
