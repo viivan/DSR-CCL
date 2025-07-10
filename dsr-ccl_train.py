@@ -153,7 +153,7 @@ def evaluationM(model, helper, testRatings, testNegative, device, K_list, type_m
 
 
 if __name__ == '__main__':
-    # 训练第三章的MBSR-HGCN部分
+    # 训练MBSR-HGCN部分
     mbsr_config = Config()
     helper = Helper()
 
